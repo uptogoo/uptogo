@@ -516,3 +516,8 @@ ul.items li a span {
 	filter:alpha(opacity=80);
 	opacity:0.8;
 }
+.carousel-inner{
+padding:50px 200px;
+}
+
+
