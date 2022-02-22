@@ -341,44 +341,65 @@ table.CONTENTS_about {
 #checkout a.proceed-btn:hover {
 	background-color: #d2941d;
 }
+
+/*---------------------booking page---------------------------*/
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password]  {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div.form {
+	width:500px; 
+	height: 470px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+div.booking{
+	width:600px; 
+	height: 470px;
+	padding: 12px 20px;
+  margin: 0px 35%
+}
+input.date{
+	width:80px
+
+}
+.star{
+	color: red
+}
 /*------------------------------ product.html ------------------------------*/
+<!--(350) product about css
 #product {
-	background: url(../images/separator-horizontal.png) no-repeat center top;
 	font-family: 'Trebuchet MS';
 	display: inline-block;
-	width: 900px;
-	margin-bottom: 60px;
-	padding: 42px 12px 0;
+	padding-left:  15px ;
 }
 #product div.section {
 	float: left;
 	width: 438px;
 	padding-left: 12px;
 }
-#product div.section ul {
-	float: right;
-	list-style: none;
-	margin: 0 62px 0 0;
-	padding: 0;
-}
-#product div.section ul li {
-	margin-bottom: 6px;
-}
-#product div.section ul li a:hover {
-	opacity:0.8;
-	filter:alpha(opacity=80);
-}
-#product div.section div {
-	height: 316px;
-	width: 317px;
-	border: 1px solid #d2cecf;
-}
+
 #product div.section h2 {
 	color: #636a86;
 	font-family: 'Trebuchet MS';
 	line-height: 36px;
 	margin: 0 0 12px;
-	padding-right: 62px;
 }
 #product div.section h2 span {
 	float: right;
@@ -390,44 +411,12 @@ table.CONTENTS_about {
 	color: #636a86;
 	font-size: 14px;
 	line-height: 24px;
-	margin: 0 62px 0 0;
 	padding-bottom: 36px;
 }
-#product div.section p a {
-	color: #636a86;
-}
-#product div.section form select {
-	color: #5c7675;
-	display: block;
-	height: 26px;
-	width: 144px;
-	border: 0;
-	margin-bottom: 12px;
-	padding: 2px;
-}
-#product div.section form input {
-	background-color: #b8dcdd;
-	color: #7c9e9f;
-	cursor: pointer;
-	font-family: 'HammersmithOneRegular';
-	font-style: oblique;
-	line-height: 24px;
-	height: 24px;
-	width: 116px;
-	border: 0;
-	margin: 18px 0 0;
-	text-align: center;
-}
-#product div.section form input:hover {
-	background-color: #c7eeef;
-}
-#product div.section input.btn-cart {
-	background-color: #e5b614;
-	color: #fcffff;
-}
-#product div.section input.btn-cart:hover {
-	background-color: #d2941d;
-}
+
+-->
+
+
 /*------------------------------ FOOTER ------------------------------*/
 .footer .block {
 	background-color: #0B1631; 	/* make background */ 
