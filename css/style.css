@@ -206,7 +206,45 @@ table.CONTENTS_about {
 
 
 /*------------------------------ checkout page ------------------------------*/
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
+input[type=password]  {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+div.form {
+	width:500px; 
+	height: 470px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+div.booking{
+	width:600px; 
+	height: 470px;
+	padding: 12px 20px;
+  margin: 0px 35%
+}
+input.date{
+	width:80px
+
+}
+.star{
+	color: red
+}
 
 
 
