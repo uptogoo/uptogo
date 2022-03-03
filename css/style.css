@@ -206,45 +206,7 @@ table.CONTENTS_about {
 
 
 /*------------------------------ checkout page ------------------------------*/
-input[type=text], select {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
 
-input[type=password]  {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-div.form {
-	width:500px; 
-	height: 470px;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 5px;
-}
-div.booking{
-	width:600px; 
-	height: 470px;
-	padding: 12px 20px;
-  margin: 0px 35%
-}
-input.date{
-	width:80px
-
-}
-.star{
-	color: red
-}
 
 
 
@@ -279,6 +241,44 @@ table.tabel_booking_room ,  table.tabel_booking_number , table.tabel_booking_dat
 .check_out{
 	padding-left: 25px;
 }
+
+
+/*------------------------------ Abroad_Travel &local.html ------------------------------*/
+#Abroad_part_one{
+	display: flex;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:8px;
+	margin :0px 5px;
+	
+	
+}
+#Abroad_part_one div.Abroad_section {
+	float: left;
+	width: 438px;
+	padding-left: 12px;
+	 
+}
+#Abroad_part_one div.Abroad_section h2 {
+	color: #636a86;
+	font-family: 'Trebuchet MS';
+	line-height: 36px;
+	 
+}
+#Abroad_part_one div.Abroad_section h2 span {
+	float:right ;
+	color: #e6b614;
+	font-size: 36px;
+	margin-top: -6px;
+	 
+}
+#Abroad_part_one div.Abroad_section p {
+	color: #636a86;
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 36px;
+	 
+}
+
 
 
 
