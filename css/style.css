@@ -137,6 +137,26 @@ ul.items li a span {
 	color: #e3b612;
 }
 
+.small_img img
+{
+	position: relative;
+	left: 15px;
+	height: 90px;
+	width: 120px;
+	margin: 50px, 50px;
+	padding-top: 10px;
+	opacity: 75%;
+
+
+}
+.small_img img:hover 
+{
+	opacity: 100%;
+	transform: scale(1.1);
+}
+
+
+
 
 				/*----------------  about  HTML --------------------*/
 
