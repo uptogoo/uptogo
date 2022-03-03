@@ -16,41 +16,68 @@
 	<div id="background">
 		<div id="page">
 			<div id="header_about">
-				<div id="logo">
-					<a href="index.html"><img src="images/logo.png" width="80" height="80" alt="Logo"></a>
-					<div class="login">
-					<a href="index.html" class="loginn">Login</a> | <a href="index.html"  class="loginn">Signup</a>
-				</div>
+				<div id="header">
+					<div id="logo">
+						<div id="mySidebar" class="sidebar">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+							<br>
+							<br>
+							<div class="sidebarlogin">
+								<a href="login.html" class="sidebarlogin">Login</a>
+								<a href="login.html" class="sidebarlogin" >Signup</a>
+							</div>
+							<br>
+							<a href="Local_Travel.html">Local Travel</a>
+							<a href="Abroad_Travel.html">Abroad Travel</a>
+							<a href="customer_service.html">Customer Service</a>
+							<a href="booking.html">Booking</a>
+							<a href="About.html">About</a>
+
+							
+						</div>
+						  
+						  <div id="main">
+							<button class="openbtn" onclick="openNav()">☰</button> 
+						  </div>
+						  
+						<a href="index.html"><img class="logosize" src="images/logo.png" alt="Logo"></a>
+						<div class="login">
+							
+						<a href="login.html" class="loginn">Login</a> | <a href="login.html"  class="loginn">Signup</a>
+						</div>
+					</div>
 				</div>	
 				<div id="navigation">
 					<ul id="primary">
-						<li  class="selected">
+						<li>
 							<a href="index.html">Home</a>
 						</li>
-						<li>
-							<a href="customer_service.html">customer service</a>
-						</li>
-
-						<li>
-							<a href="About.html">About</a>
-						</li>
+						
 						<li>
 							<a href="Local_Travel.html">Local Travel</a>
 						</li>
 						<li class="selected">
 							<a href="Abroad_Travel.html">Abroad Travel</a>
 						</li>
+						<li>
+							<a href="customer_service.html">customer service</a>
+						</li>
+						<li>
+							<a href="booking.html" >BOOKING</a>
+						</li>
+						<li>
+							<a href="About.html">About</a>
+						</li>
+
 					</ul>
-					<div class="navigation_R">
-						<a href="booking.html" >BOOKING</a>
-					</div>
+					
 				</div>
 			</div>
 
 				<!-- booking html-->
 
                 <div id="Abroad_contant">
-					<li>
+					<li style="list-style-type: none;">
 						<a href="product5.html">
                     <div id="Abroad_part_one"> 
 						
@@ -62,13 +89,13 @@
                             <p>
                                 FRANCE Excursions and Tours are the perfect way to explore FRANCE Attractions and Sightseeing, Enjoy our Excursions and day Trips from FRANCE to the pyramids in Cairo, the valley of Kings in Luxor, FRANCE tours to Petra and to Jerusalem, as you have a lot of things to do in FRANCE.
                             </p> 
-							  
+					</li>		  
                 </div>
 			</a>
-		</li>
+		
 		</div>
 		<br>
-        <li>
+        <li style="list-style-type: none;">
 			<a href="product6.html">
         <div id="Abroad_part_one"> 
 			
@@ -85,7 +112,7 @@
 </li>
 </div>
  <br>
- <li>
+ <li style="list-style-type: none;">
 	<a href="product8.html">
 <div id="Abroad_part_one"> 
     <div class="Abroad_section">
@@ -101,7 +128,7 @@
 </li>
 </div>
 <br>
-<li>
+<li style="list-style-type: none;">
 	<a href="product7.html">
 <div id="Abroad_part_one"> 
     <div class="Abroad_section">
@@ -125,7 +152,7 @@
 
 
 
-
+	<script src="js/main.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

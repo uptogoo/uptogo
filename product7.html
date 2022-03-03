@@ -12,33 +12,58 @@
 	<div id="background">
 		<div id="page">
 			<div id="header_about">
-				<div id="logo">
-					<a href="index.html"><img src="images/logo.png" width="80" height="80" alt="Logo"></a>
-					<div class="login">
-					<a href="login.html" class="loginn">Login</a> | <a href="login.html"  class="loginn">Signup</a>
-				</div>
+				<div id="header">
+					<div id="logo">
+						<div id="mySidebar" class="sidebar">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+							<br>
+							<br>
+							<div class="sidebarlogin">
+								<a href="login.html" class="sidebarlogin">Login</a>
+								<a href="login.html" class="sidebarlogin" >Signup</a>
+							</div>
+							<br>
+							<a href="Local_Travel.html">Local Travel</a>
+							<a href="Abroad_Travel.html">Abroad Travel</a>
+							<a href="customer_service.html">Customer Service</a>
+							<a href="booking.html">Booking</a>
+							<a href="About.html">About</a>
+							
+						</div>
+						  
+						  <div id="main">
+							<button class="openbtn" onclick="openNav()">☰</button> 
+						  </div>
+						  
+						<a href="index.html"><img class="logosize" src="images/logo.png" alt="Logo"></a>
+						<div class="login">
+							
+						<a href="login.html" class="loginn">Login</a> | <a href="login.html"  class="loginn">Signup</a>
+						</div>
+					</div>
 				</div>	
 				<div id="navigation">
 					<ul id="primary">
-						<li  class="selected">
+						<li>
 							<a href="index.html" >Home</a>
 						</li>
-						<li>
-							<a href="customer_service.html">customer service</a>
-						</li>
-						<li>
-							<a href="About.html">About</a>
-						</li>
+						
 						<li>
 							<a href="Local_Travel.html">Local Travel</a>
 						</li>
 						<li>
 							<a href="Abroad_Travel.html">Abroad Travel</a>
 						</li>
+						<li>
+							<a href="customer_service.html">customer service</a>
+						</li>
+						<li>
+							<a href="booking.html" >BOOKING</a>
+						</li>
+						<li>
+							<a href="About.html">About</a>
+						</li>
 					</ul>
-					<div class="navigation_R">
-						<a href="booking.html" >BOOKING</a>
-					</div>
 				</div>
 			</div>
 
@@ -58,9 +83,7 @@
 								<img src="images/ita.jpg" onclick="myFunction(this)" >
 								
 							</div>
-	
-							<!-- Switching between the full image and the rest of the images  -->
-							<script type="text/javascript" src="main.js"></script>
+
 
 						</div>
 						<div class="section">
@@ -82,7 +105,7 @@
 
 		</div>
 	</div>
-
+	<script src="js/main.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

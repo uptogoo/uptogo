@@ -17,12 +17,22 @@
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	margin-bottom: -20px;
+	background: rgb(184,219,222);
+	background: linear-gradient(180deg, rgba(184,219,222,1) 0%, rgba(247,247,247,1) 74%, rgba(247,247,247,1) 100%);
+
 }
 #header_about {
 	margin-bottom: 20px;
 }
 
 /** Logo+ login **/
+.logosize{
+	width: 310px;
+	height: 110px;
+	padding-bottom: 20px;
+	margin-left: 530px;
+	margin-bottom: 5px;
+}
 
 .loginn{
 	font-family: 'HammersmithOneRegular';
@@ -33,19 +43,87 @@
 }
 .login{
 	float: right;
-	padding-top: 18px;
+	padding-top: 35px;
+	margin-right: 20px;
 }
+
+/*------------------------------ sidebar ------------------------------*/
+.sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	background-color: #b8dbde;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 0px;
+  }
+  
+  .sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #527b99;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+	color: #0096a2;
+  }
+  
+  .sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  .openbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #65a4aa;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+  }
+  
+  .openbtn:hover {
+	background-color: #444;
+  }
+  .sidebarlogin{
+	display: inline !important;
+	color: #124E96!important;
+  }
+  .sidebarlogin:hover{
+	color: #2c7fe4!important;
+  }
+  
+  #main {
+	transition: margin-left .5s;
+	padding-top: 25px;
+	float: none;
+	display:contents;
+  }
 /** Navigation **/
 #navigation {
 	background-color: #b8dbde;
 	color: #527b99;	
 	text-align: center;
 	display: flex;
+	z-index: 9999;
 	
 }
-.navigation_R{
-	margin: auto;
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
+  
+
 #navigation ul {
 	list-style: none;
 	display: inline-block; 
@@ -69,8 +147,26 @@
 	color: #0096a2;
 	padding-top: 5px;
 }
+/*------------------------------ Arrows ------------------------------*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
 
+.carousel-control-next-icon:after
+{
+  content: '⮞';
+  font-size: 55px;
+  color: #2b8b80;
+}
 
+.carousel-control-prev-icon:after {
+  content: '⮜';
+  font-size: 55px;
+  color: #2b8b80;
+}
 
 /*------------------------------ CONTENTS  index ------------------------------*/
 #contents {
@@ -113,11 +209,13 @@ ul.items {
 	display: inline-block;
 	list-style: none;
 	margin-left: 100px;
+	
 }
 ul.items li {
 	float: left;
 	width: 169px;
 	margin-left: 66px;
+	
 }
 
 
@@ -269,6 +367,7 @@ table.tabel_booking_room ,  table.tabel_booking_number , table.tabel_booking_dat
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding:8px;
 	margin :0px 5px;
+	list-style-type:none  !important;
 	
 	
 }
@@ -302,11 +401,14 @@ table.tabel_booking_room ,  table.tabel_booking_number , table.tabel_booking_dat
 
 
 
+
 /*------------------------------ product.html ------------------------------*/
 #product {
 	font-family: 'Trebuchet MS';
 	display: inline-block;
 	padding-left:  15px ;
+	
+	
 }
 #product div.section {
 	float: left;
@@ -338,17 +440,20 @@ table.tabel_booking_room ,  table.tabel_booking_number , table.tabel_booking_dat
 
 /*------------------------------ FOOTER ------------------------------*/
 .footer .block {
-	background-color: #0B1631; 	/* make background */ 
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(184,219,222,1) 39%, rgba(184,219,222,1) 100%);	/* make background */ 
 	height: 200px; 								 /* make height for block */ 
-	width: 80%;	 									 /* make width 80 from width of page */ 
+	width: 100%;	 									 /* make width 80 from width of page */ 
 	margin: auto;	 								 /* make block in center */ 
 	text-align: center;	 					 /* make items inside block in center */ 
 }
 
 .footer .block .link {
-	color: white;									 /* make color white */
+	color: #527b99;									 /* make color white */
 	text-decoration: none;						/* remove lines from link */
 	text-transform: capitalize; 			/* make first letter with capital */
 	margin: 20px;											/* make space between links */
 	display: inline-block;						/* make display available to get space from top and bottom */
 }
+
+
