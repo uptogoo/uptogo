@@ -203,24 +203,25 @@
 
 
 #main, #main div {
-	margin: 0 0 30px;
+	margin: 0 0 0px;
 }
+
 ul.items {
 	display: inline-block;
 	list-style: none;
-	margin-left: 100px;
+	margin-left: 10px;
 	
 }
 ul.items li {
 	float: left;
 	width: 169px;
-	margin-left: 66px;
+	margin-left: 100px;
 	
 }
 
 
 ul.items li a {
-	color: #646b85;
+	color: #263981;
 	font-family: 'HammersmithOneRegular';
 	font-size: 14px;
 	line-height: 24px;
@@ -268,9 +269,7 @@ table.CONTENTS_about {
 }
 
 /*------------------------------ customer_service ------------------------------*/
-.customer_service{
-	text-align: center;
-}
+
 
 
 .customer_service input[type=text] {
