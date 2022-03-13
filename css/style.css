@@ -533,6 +533,16 @@ table.tabel_booking_room ,  table.tabel_booking_number , table.tabel_booking_dat
 	font-size:13px;
 	margin-bottom:0;
   }
-  
-  
+.lol{
+	display: flex;
+	justify-content:space-between ;
+	flex-wrap: wrap;
+	width: 85%;
+}  
+.first-colum{
+	padding-left: 20px;
+	font-weight: 800;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
 
